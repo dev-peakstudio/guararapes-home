@@ -493,7 +493,7 @@ html.js .loader.is-done { opacity: 0; visibility: hidden; }
 }
 .hero__line { display: block; overflow: hidden; }
 .hero__line i {
-  font-style: normal;
+  font-style: italic;
   display: block;
   transform: translateY(110%);
   animation: heroLine 1.1s var(--ease) forwards;

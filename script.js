@@ -531,7 +531,7 @@
     { id:'ruc', num:'03', name:'MDF RUC', sub:'12 acabamentos', cover:A+'mdf-ruc-chapas.jpg', lines:[
       {name:'RUC Areia',img:A+'textura-tile-2.jpg'},{name:'RUC Branco TX',img:A+'textura-madeira-clara.jpg'},{name:'RUC Brisa',img:A+'textura-tile-1.jpg'},{name:'RUC Carvalho Natural',img:A+'textura-carvalho-dourado.jpg'},{name:'RUC Cru',img:A+'mdf-ruc-chapas.jpg'},{name:'RUC Freijó',img:A+'textura-nogueira-still.jpg'},{name:'RUC Grafite',img:A+'textura-tile-6.jpg'},{name:'RUC Lume',img:A+'textura-tile-5.jpg'},{name:'RUC Maxi Branco',img:A+'textura-tile-1.jpg'},{name:'RUC Nuvem',img:A+'textura-tile-3.jpg'},{name:'RUC Savana',img:A+'textura-carvalho-dourado.jpg'},{name:'RUC Tauari',img:A+'textura-madeira-clara.jpg'} ] },
     { id:'compensados', num:'04', name:'Compensados Guaraply', sub:'Estruturais e não estruturais', cover:A+'compensado-chapas.jpg', lines:[
-      {name:'Estruturais',img:A+'compensado-chapas.jpg'},{name:'Não estruturais',img:A+'veneer-textura.jpg'} ] },
+      {name:'Estruturais',img:A+'compensado-estrutural.png'},{name:'Não estruturais',img:A+'compensado-nao-estrutural.jpeg'} ] },
   ];
 
   /* V1 · painéis expansíveis */
