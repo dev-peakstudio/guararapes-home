@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guararapes — Movidos pela força da natureza</title>
+  <meta name="description" content="Há mais de 40 anos levamos o bem-estar da madeira para as pessoas — de uma semente no sul do Brasil para mais de 50 países." />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <!-- ░░ Loader ░░ -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <img class="loader__logo" src="assets/logo-negativo.svg" alt="Guararapes" width="143" height="42" />
+  </div>
+
+  <!-- ░░ HEADER + MEGAMENU ░░ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#" aria-label="Guararapes — página inicial" aria-current="true">
+        <img class="brand__logo brand__logo--cream" src="assets/logo-negativo.svg" alt="Guararapes" width="143" height="42" />
+        <img class="brand__logo brand__logo--terra" src="assets/logo-negativo-dark.svg" alt="" aria-hidden="true" width="143" height="42" />
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <div class="nav__scroll">
+
+          <!-- item com megamenu: A Guararapes -->
+          <div class="nav__item has-mega">
+            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-empresa">
+              Nossa natureza
+              <svg viewBox="0 0 24 24" class="ico nav__caret"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="mega" id="mega-empresa">
+              <div class="container mega__grid">
+                <div class="mega__intro">
+                  <p class="meta">Institucional</p>
+                  <p class="mega__lead">Uma história que começa em 1984, no sul do Brasil — e hoje chega a mais de 50 países.</p>
+                </div>
+                <ul class="mega__list">
+                  <li><a href="#quem-somos"><span>Quem somos</span><em>Nossa história, propósito e pessoas</em></a></li>
+                  <li><a href="#"><span>Casas Guararapes</span><em>Showrooms em São Paulo, Curitiba e Caçador</em></a></li>
+                  <li><a href="#sustentabilidade"><span>ESG e Sustentabilidade</span><em>Floresta, ciclo e comunidades</em></a></li>
+                  <li><a href="#contato"><span>Fale com a gente</span><em>Atendimento e relacionamento</em></a></li>
+                </ul>
+                <a class="mega__feature" href="#quem-somos">
+                  <img src="assets/showroom-arquitetura.jpg" alt="Casa Guararapes — showroom em madeira" loading="lazy" />
+                  <span class="mega__feature-caption">Casa Guararapes<i>→</i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- item com megamenu: Produtos -->
+          <div class="nav__item has-mega">
+            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-produtos">
+              Produtos
+              <svg viewBox="0 0 24 24" class="ico nav__caret"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="mega" id="mega-produtos">
+              <div class="container mega__grid">
+                <div class="mega__intro">
+                  <p class="meta">Produtos</p>
+                  <p class="mega__lead">A madeira certa para cada projeto, do painel ao ambiente pronto.</p>
+                </div>
+                <ul class="mega__list">
+                  <li><a href="#produtos"><span>MDF Decorativos</span><em>80 padrões, 9 linhas e 10 texturas</em></a></li>
+                  <li><a href="#produtos"><span>MDF Cru</span><em>Pinus Taeda de reflorestamento, 2,5 – 45 mm</em></a></li>
+                  <li><a href="#produtos"><span>MDF RUC</span><em>Resistente à umidade e ao cupim</em></a></li>
+                  <li><a href="#produtos"><span>Compensados Guaraply</span><em>100% à prova d’água</em></a></li>
+                </ul>
+                <ul class="mega__list mega__list--aux">
+                  <li><a href="#"><span>Lançamentos</span><em>Coleção 2026</em></a></li>
+                  <li><a href="#"><span>Downloads</span><em>Catálogos e materiais técnicos</em></a></li>
+                </ul>
+                <a class="mega__feature" href="#produtos">
+                  <img src="assets/mdf-revestido-quarto.jpg" alt="Quarto com painéis de MDF revestido" loading="lazy" />
+                  <span class="mega__feature-caption">Coleção 2026<i>→</i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- item com megamenu: Sustentabilidade -->
+          <div class="nav__item has-mega">
+            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-sustent">
+              Sustentabilidade
+              <svg viewBox="0 0 24 24" class="ico nav__caret"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="mega" id="mega-sustent">
+              <div class="container mega__grid">
+                <div class="mega__intro">
+                  <p class="meta">Sustentabilidade</p>
+                  <p class="mega__lead">Desde 1992, o reflorestamento faz parte do nosso processo produtivo.</p>
+                </div>
+                <ul class="mega__list">
+                  <li><a href="#sustentabilidade"><span>ESG</span><em>Ambiental, social e governança</em></a></li>
+                  <li><a href="#sustentabilidade"><span>Certificações</span><em>FSC, PEFC, EPD e selos de origem</em></a></li>
+                  <li><a href="#sustentabilidade"><span>Origem florestal</span><em>Pinus de reflorestamento próprio</em></a></li>
+                  <li><a href="#"><span>Relatórios e downloads</span><em>Documentos e indicadores</em></a></li>
+                </ul>
+                <a class="mega__feature" href="#sustentabilidade">
+                  <img src="assets/esg-floresta-pessoa.jpg" alt="Floresta de reflorestamento da Guararapes" loading="lazy" />
+                  <span class="mega__feature-caption">Nossas florestas<i>→</i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- item com megamenu: Conteúdos -->
+          <div class="nav__item has-mega">
+            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-conteudos">
+              Conteúdos
+              <svg viewBox="0 0 24 24" class="ico nav__caret"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="mega" id="mega-conteudos">
+              <div class="container mega__grid">
+                <div class="mega__intro">
+                  <p class="meta">Conteúdos</p>
+                  <p class="mega__lead">Tendências, projetos e bastidores de quem vive a madeira todos os dias.</p>
+                </div>
+                <ul class="mega__list">
+                  <li><a href="#conteudos"><span>Blog</span><em>Tendências e inspiração de projeto</em></a></li>
+                  <li><a href="#"><span>Webséries</span><em>Histórias da Guararapes em vídeo</em></a></li>
+                  <li><a href="#conteudos"><span>De olho nas tendências</span><em>Padrões e coleção do próximo ano</em></a></li>
+                  <li><a href="#redes"><span>Redes sociais</span><em>Siga em todas as plataformas</em></a></li>
+                </ul>
+                <a class="mega__feature" href="#conteudos">
+                  <img src="assets/editorial-quarto-verde.jpg" alt="Projeto editorial com painéis Guararapes" loading="lazy" />
+                  <span class="mega__feature-caption">Coleção 2026<i>→</i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a class="nav__link" href="#contato">Contato</a>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a class="utility-link" href="#onde-encontrar">Parceiro+</a>
+        <button class="icon-btn" type="button" aria-label="Buscar no site">
+          <svg viewBox="0 0 24 24" class="ico"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.6-3.6" /></svg>
+        </button>
+        <a class="icon-btn" href="https://casa.guararapes.com.br" target="_blank" rel="noopener" aria-label="Loja online">
+          <svg viewBox="0 0 24 24" class="ico"><path d="M6.5 8h11l-.85 11.2a1 1 0 0 1-1 .92H8.35a1 1 0 0 1-1-.92L6.5 8z" /><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5" /></svg>
+        </a>
+        <a class="btn-locate" href="#onde-encontrar">Onde encontrar</a>
+        <div class="lang" role="group" aria-label="Idioma">
+          <button class="lang__toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Selecionar idioma">
+            <svg viewBox="0 0 24 24" class="ico"><circle cx="12" cy="12" r="9" /><path d="M3 12h18" /><path d="M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18" /></svg>
+            <svg viewBox="0 0 24 24" class="ico lang__caret"><path d="m6 9 6 6 6-6" /></svg>
+          </button>
+          <div class="lang__menu">
+            <button class="lang__btn is-active" type="button" aria-pressed="true" lang="pt-BR" data-lang="pt-BR" aria-label="Português">PT</button>
+            <button class="lang__btn" type="button" aria-pressed="false" lang="en" data-lang="en" aria-label="English">EN</button>
+            <button class="lang__btn" type="button" aria-pressed="false" lang="es" data-lang="es" aria-label="Español">ES</button>
+          </div>
+        </div>
+        <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ░░ 01 · HERO ░░ -->
+    <section class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <div class="hero__slide hero__slide--video is-active">
+          <video class="hero__video" muted playsinline preload="auto" poster="assets/hero-lounge-comercial.jpg">
+            <source src="assets/hero-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="hero__slide"><img src="assets/hero-lounge-comercial.jpg" alt="" width="1750" height="912" fetchpriority="high" decoding="async" /></div>
+        <div class="hero__slide"><img src="assets/ambiente-tv-noz.jpg" alt="" width="1750" height="912" loading="lazy" decoding="async" /></div>
+        <div class="hero__slide"><img src="assets/ambiente-quarto-verde.jpg" alt="" width="1750" height="912" loading="lazy" decoding="async" /></div>
+      </div>
+      <div class="container hero__content">
+        <h1 class="hero__title">
+          <span class="hero__line"><i>Movidos pela</i></span>
+          <span class="hero__line"><i>força da natureza</i></span>
+        </h1>
+        <div class="hero__foot">
+          <p class="hero__lead">De uma semente no sul do Brasil para mais de 50 países:
+            há mais de 40 anos levamos o bem-estar da madeira para as pessoas.</p>
+          <div class="hero__meta">
+            <span class="hero__caption">Painéis para projetos residenciais e comerciais, desde 1984</span>
+            <a class="hero__scroll" href="#quem-somos" aria-label="Explorar o conteúdo">
+              <img src="assets/icons/mouse.svg" alt="" width="31" height="31" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 04 · PRODUTOS — Nossos produtos (master/detail) ░░ -->
+    <section class="section products" id="produtos">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="prod-h">Nossos produtos</h2>
+          <a class="link-line" href="#">Ver catálogo completo</a>
+        </header>
+      </div>
+      <div class="container reveal" data-prod="panels"></div>
+    </section>
+
+    <!-- ░░ 04c · LANÇAMENTOS 2026 — carrossel (Figma 6097-790) ░░ -->
+    <section class="section lancamentos" id="lancamentos">
+      <div class="container lanc-wrap">
+        <div class="lanc-intro reveal">
+          <div class="lanc-intro__head">
+            <h2 class="prod-h">Lançamentos</h2>
+            <p class="lanc-desc">A Coleção 2026 chega com novas madeiras, cores e texturas — pensadas para os projetos do próximo ano.</p>
+          </div>
+          <div class="lanc-ctrl" data-lanc-ctrl></div>
+        </div>
+        <div class="lanc-viewport reveal" data-prod="lanc"></div>
+      </div>
+    </section>
+
+    <!-- ░░ 05 · INSPIRAÇÃO ░░ -->
+    <section class="section gallery" id="inspiracao">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="prod-h">Ambientes que acolhem</h2>
+          <span class="gallery__hint" id="galHint" aria-hidden="true">Arraste para explorar
+            <img src="assets/icons/arrows-move-horizontal.svg" alt="" width="32" height="32" /></span>
+        </header>
+      </div>
+      <div class="gallery__track" id="galleryTrack" tabindex="0" aria-label="Galeria de ambientes — role horizontalmente">
+        <figure class="gallery__item reveal-mask">
+          <img src="assets/ambiente-tv-noz.jpg" alt="Painel de TV em MDF amadeirado" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal-mask">
+          <img src="assets/ambiente-living-claro.jpg" alt="Living em tons claros com painéis de MDF" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal-mask">
+          <img src="assets/ambiente-cozinha-escura.jpg" alt="Cozinha escura sofisticada em MDF" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal-mask">
+          <img src="assets/ambiente-quarto-verde.jpg" alt="Quarto com cabeceira em MDF verde e madeira" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal-mask">
+          <img src="assets/ambiente-minimal-branco.jpg" alt="Closet minimalista em tons neutros" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal-mask">
+          <img src="assets/detalhe-estante.jpg" alt="Detalhe de estante com iluminação embutida" loading="lazy" />
+        </figure>
+      </div>
+      <div class="container gallery__meta reveal">
+        <span class="meta gallery__count"><span class="gallery__count-mask"><span id="galCurrent">01</span></span> / 06</span>
+        <span class="gallery__progress" aria-hidden="true"><i id="galBar"></i></span>
+      </div>
+      <div class="container pro reveal" id="especificar">
+        <header class="pro__head">
+          <div class="pro__intro">
+            <p class="pro__kicker">Para quem projeta</p>
+            <h3 class="prod-h pro__title">Ferramentas para o seu projeto</h3>
+          </div>
+          <div class="pro__aside">
+            <p class="pro__lead">Apoio a arquitetos, designers e marceneiros em cada etapa da especificação.</p>
+            <a class="link-line" href="#">Ver todos os downloads</a>
+          </div>
+        </header>
+        <div class="pro__cards">
+          <a class="pro__card" href="#">
+            <span class="pro__card-media"><img src="assets/catalogos.png" alt="Catálogo Linha Design Collection" loading="lazy" /></span>
+            <span class="pro__card-body">
+              <span class="pro__card-num">01</span>
+              <span class="pro__card-text">
+                <span class="pro__card-title">Downloads técnicos</span>
+                <span class="pro__card-desc">Catálogos, fichas técnicas e EPDs</span>
+              </span>
+              <svg viewBox="0 0 24 24" class="ico pro__card-arrow" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </span>
+          </a>
+          <a class="pro__card" href="#">
+            <span class="pro__card-media"><img src="assets/meu-ambiente.png" alt="App Meu Ambiente Guararapes no desktop" loading="lazy" /></span>
+            <span class="pro__card-body">
+              <span class="pro__card-num">02</span>
+              <span class="pro__card-text">
+                <span class="pro__card-title">Meu ambiente Guararapes</span>
+                <span class="pro__card-desc">Visualize padrões e texturas no seu projeto</span>
+              </span>
+              <svg viewBox="0 0 24 24" class="ico pro__card-arrow" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </span>
+          </a>
+          <a class="pro__card" href="#">
+            <span class="pro__card-media"><img src="assets/simulador-de-ambientes.png" alt="Simulador de ambientes no notebook" loading="lazy" /></span>
+            <span class="pro__card-body">
+              <span class="pro__card-num">03</span>
+              <span class="pro__card-text">
+                <span class="pro__card-title">Simulador de Ambientes</span>
+                <span class="pro__card-desc">Amostras e atendimento em São Paulo, Curitiba e Caçador</span>
+              </span>
+              <svg viewBox="0 0 24 24" class="ico pro__card-arrow" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </span>
+          </a>
+          <a class="pro__card" href="#">
+            <span class="pro__card-media"><img src="assets/app-bussola.png" alt="App Bússola de combinações no celular" loading="lazy" /></span>
+            <span class="pro__card-body">
+              <span class="pro__card-num">04</span>
+              <span class="pro__card-text">
+                <span class="pro__card-title">App Bússola de combinações</span>
+                <span class="pro__card-desc">Crie combinações, explore estilos e siga tendências de design de interiores.</span>
+              </span>
+              <svg viewBox="0 0 24 24" class="ico pro__card-arrow" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 03 · FULL-BLEED — Origem florestal (Figma 6071-8) ░░ -->
+    <section class="break" aria-label="Nossa origem florestal">
+      <figure class="break__media parallax" aria-hidden="true">
+        <img src="assets/hero-floresta-aerea.jpg" alt="" loading="lazy" />
+      </figure>
+      <div class="container break__content">
+        <div class="break__lead reveal">
+          <img class="break__emblem" src="assets/leaf-emblem.svg" alt="" width="56" height="28" />
+          <p class="break__statement">O que começa do tamanho de uma semente pode se tornar do tamanho de uma floresta.</p>
+        </div>
+        <dl class="break__stats reveal">
+          <div class="break__stat"><dt>40+</dt><dd>Anos de história</dd></div>
+          <div class="break__stat"><dt>50+</dt><dd>Países atendidos</dd></div>
+          <div class="break__stat"><dt>3</dt><dd>Unidades industriais</dd></div>
+          <div class="break__stat"><dt>80+</dt><dd>Padrões de MDF</dd></div>
+          <div class="break__stat"><dt>1.140</dt><dd>mil m³ de MDF / ano</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ░░ 02 · QUEM SOMOS — carrossel (Figma 6070-8) ░░ -->
+    <section class="section about" id="quem-somos">
+      <div class="container">
+        <img class="about__emblem" src="assets/emblem-guararapes.svg" alt="" width="136" height="136" loading="lazy" aria-hidden="true" />
+        <h2 class="statement reveal">O que começa do tamanho de uma semente pode se tornar do tamanho de uma floresta.</h2>
+        <div class="about__grid">
+          <figure class="about__media reveal-mask" data-about-carousel>
+            <div class="about__slides">
+              <div class="about__slide is-active"><img src="assets/fabrica-interior.jpg" alt="Linha de produção de painéis Guararapes" loading="lazy" /></div>
+              <div class="about__slide"><img src="assets/fabrica-patio-toras.jpg" alt="Pátio de toras de pinus de reflorestamento" loading="lazy" /></div>
+              <div class="about__slide"><img src="assets/fabrica-complexo-aereo.jpg" alt="Complexo industrial Guararapes" loading="lazy" /></div>
+              <div class="about__slide"><img src="assets/fabrica-aerea.jpg" alt="Vista aérea da unidade fabril" loading="lazy" /></div>
+              <div class="about__slide"><img src="assets/chapas-mdf-still.jpg" alt="Chapas de MDF cru" loading="lazy" /></div>
+            </div>
+          </figure>
+          <div class="about__col reveal">
+            <div class="about__nav">
+              <span class="about__count"><b data-about-cur>1</b>/<span data-about-total>5</span></span>
+              <span class="about__arrows">
+                <button class="about__arrow" type="button" data-about-prev aria-label="Imagem anterior"><svg viewBox="0 0 24 24" class="ico"><path d="M19 12H5M11 6l-6 6 6 6" /></svg></button>
+                <button class="about__arrow" type="button" data-about-next aria-label="Próxima imagem"><svg viewBox="0 0 24 24" class="ico"><path d="M5 12h14M13 6l6 6-6 6" /></svg></button>
+              </span>
+            </div>
+            <p class="about__lead">Somos uma das maiores indústrias de painéis da América Latina,
+              e nascemos pequenos, em 1984, crescendo com o tempo certo das coisas.
+              Hoje, nossa origem florestal chega a mais de 50 países.</p>
+            <p class="body">Investimos em inovação e tecnologia e, ao mesmo tempo, somos
+              verdadeiramente humanos: cuidamos das pessoas que trabalham com a gente
+              e das comunidades onde atuamos.</p>
+            <a class="btn-outline" href="#">Conheça nossa história</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ░░ 06 · SUSTENTABILIDADE ░░ -->
+    <section class="section sustain" id="sustentabilidade">
+      <div class="container sustain__row">
+        <div class="sustain__text reveal">
+          <h2 class="sustain__title">Crescer respeitando<br />o tempo da natureza</h2>
+          <p class="body sustain__lead">Nossos produtos vêm da madeira, e por isso nossa relação
+            com as florestas é de respeito profundo. Desde 1992, o reflorestamento
+            faz parte do nosso processo produtivo.</p>
+          <a class="btn-outline" href="#">Sustentabilidade</a>
+        </div>
+        <div class="sustain__certs reveal" aria-label="Certificações">
+          <img src="assets/cert-bv.png" alt="Bureau Veritas" loading="lazy" />
+          <img src="assets/cert-epd.png" alt="EPD — Environmental Product Declaration" loading="lazy" />
+          <img src="assets/cert-ce2.png" alt="CE2+" loading="lazy" />
+          <img src="assets/cert-ce4.png" alt="CE4" loading="lazy" />
+          <img src="assets/cert-pbqph.png" alt="PBQP-H" loading="lazy" />
+          <img src="assets/cert-ps122.png" alt="Selo PS1-22" loading="lazy" />
+          <img src="assets/cert-ukca.png" alt="UKCA" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 07 · CONTEÚDO ░░ -->
+    <section class="section content" id="conteudo">
+      <div class="container">
+        <div class="content__grid">
+          <a class="post post--feature reveal" href="#">
+            <figure class="reveal-mask"><img src="assets/editorial-quarto-verde.jpg" alt="" loading="lazy" /></figure>
+            <span class="post__tag">De olho nas tendências</span>
+            <h3>Os padrões e texturas que vão marcar os projetos do próximo&nbsp;ano</h3>
+            <time datetime="2026-06">Junho 2026</time>
+          </a>
+          <div class="content__list reveal">
+            <a class="post post--row" href="#">
+              <figure><img src="assets/fabrica-operador.jpg" alt="" loading="lazy" /></figure>
+              <div>
+                <span class="post__tag">Bastidores</span>
+                <h3>Tecnologia e cuidado: como nasce um painel Guararapes</h3>
+              </div>
+            </a>
+            <a class="post post--row" href="#">
+              <figure><img src="assets/ambiente-reuniao.jpg" alt="" loading="lazy" /></figure>
+              <div>
+                <span class="post__tag">Projetos de arquitetos</span>
+                <h3>Um escritório desenhado com a Coleção 2026</h3>
+              </div>
+            </a>
+            <a class="post post--row" href="#">
+              <figure><img src="assets/esg-floresta-pessoa.jpg" alt="" loading="lazy" /></figure>
+              <div>
+                <span class="post__tag">Sustentabilidade</span>
+                <h3>Reflorestamento desde 1992: como cuidamos das nossas florestas</h3>
+              </div>
+            </a>
+            <a class="content__more" href="#">Todos os conteúdos<i aria-hidden="true">→</i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ░░ 10 · NEWSLETTER ░░ -->
+    <section class="section news" id="newsletter">
+      <div class="container news__row">
+        <h2 class="news__title reveal">Fique por dentro de todas as novidades da Guararapes</h2>
+        <form class="news__form reveal" novalidate>
+          <label class="sr-only" for="news-nome">Nome</label>
+          <input class="news__input" id="news-nome" name="nome" type="text" placeholder="Nome" autocomplete="name" />
+          <label class="sr-only" for="news-email">Email</label>
+          <input class="news__input" id="news-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Email" required />
+          <button class="news__btn" type="submit">Cadastrar <svg viewBox="0 0 24 24" class="ico"><path d="M5 12h14M13 6l6 6-6 6" /></svg></button>
+          <p class="news__thanks" role="status" hidden>Pronto — você está na lista. Boas-vindas à Guararapes.</p>
+        </form>
+      </div>
+    </section>
+      <!-- ░░ 09 · CONTATO ░░ -->
+    <section class="contact" id="contato">
+      <div class="container">
+        <div class="contact__row">
+          <a class="contact__cta reveal" href="#">
+            <span class="contact__title">Fale com a gente</span>
+            <span class="contact__circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" class="ico"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </span>
+          </a>
+          <a class="contact__find reveal" id="onde-encontrar" href="#">
+            <svg viewBox="0 0 24 24" class="ico contact__pin"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z" /><circle cx="12" cy="10" r="2.5" /></svg>
+            <span class="contact__find-text">
+              <span class="contact__find-title">Onde encontrar</span>
+              <span class="contact__find-desc">Veja onde você pode encontrar nossos produtos</span>
+            </span>
+            <i class="contact__find-arrow" aria-hidden="true">↗</i>
+          </a>
+        </div>
+        <hr class="contact__rule reveal" />
+      </div>
+    </section>
+
+</main>
+
+  <!-- ░░ 11 · RODAPÉ ░░ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__main">
+        <div class="footer__brand">
+          <img class="footer__logo" src="assets/logo-negativo.svg" alt="Guararapes" width="143" height="42" />
+          <p class="footer__tagline">Movidos pela força da natureza</p>
+          <div class="footer__social">
+            <p class="footer__social-label">Siga nas redes</p>
+            <div class="footer__social-icons">
+              <a class="footer__ico" href="#redes" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.4" y="3.4" width="17.2" height="17.2" rx="5"/><circle cx="12" cy="12" r="3.7"/><circle cx="17.2" cy="6.8" r=".55" fill="currentColor" stroke="none"/></svg></a>
+              <a class="footer__ico" href="#redes" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.4" y="3.4" width="17.2" height="17.2" rx="2.6"/><circle cx="7.7" cy="7.9" r=".7" fill="currentColor" stroke="none"/><path d="M7.7 10.6V16M11 16v-3.2a2 2 0 0 1 4 0V16" stroke-linecap="round"/></svg></a>
+              <a class="footer__ico" href="#redes" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6.4" width="18" height="11.2" rx="3.2"/><path d="M10.7 9.7l4.5 2.3-4.5 2.3z" fill="currentColor" stroke="none"/></svg></a>
+              <a class="footer__ico" href="#redes" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.6"/><path d="M10.3 17.3l1.9-7.1M10 11.1c0-1.6 1.2-2.7 2.8-2.7 1.4 0 2.5 1 2.5 2.6 0 1.9-1.1 3.2-2.6 3.2-.8 0-1.4-.6-1.2-1.4" stroke-linecap="round"/></svg></a>
+            </div>
+          </div>
+        </div>
+
+        <nav class="footer__cols" aria-label="Mapa do site">
+          <div class="footer__col">
+            <p class="footer__label">Institucional</p>
+            <a href="#quem-somos">Quem somos</a>
+            <a href="#">Showrooms</a>
+            <a href="#contato">Fale conosco</a>
+            <a href="#">Trabalhe conosco</a>
+            <a href="#onde-encontrar">Onde encontrar</a>
+            <a href="#">Manual de Ética e Conduta</a>
+            <a href="#">Relação com investidores</a>
+            <a href="#">Governança e ética</a>
+          </div>
+          <div class="footer__col">
+            <p class="footer__label">Produtos</p>
+            <a href="#lancamentos">Lançamentos</a>
+            <a href="#produtos">MDF Revestido</a>
+            <a href="#produtos">MDF Cru</a>
+            <a href="#produtos">MDF RUC</a>
+            <a href="#produtos">Compensados</a>
+          </div>
+          <div class="footer__col">
+            <p class="footer__label">Sustentabilidade</p>
+            <a href="#sustentabilidade">ESG</a>
+            <a href="#sustentabilidade">Certificações</a>
+          </div>
+          <div class="footer__col">
+            <p class="footer__label">Conteúdos</p>
+            <a href="#conteudo">Downloads</a>
+            <a href="#conteudo">Blog</a>
+            <a href="#">Webseries</a>
+            <a href="#redes">Redes sociais</a>
+            <a href="#">Downloads</a>
+          </div>
+          <div class="footer__col">
+            <p class="footer__label">Acesso rápido</p>
+            <a href="https://casa.guararapes.com.br" target="_blank" rel="noopener">Loja online</a>
+            <a href="#">Bússola de Combinações</a>
+            <a href="#">Simulador de ambientes</a>
+            <a href="#">Meu ambiente Guararapes</a>
+          </div>
+        </nav>
+      </div>
+
+      <hr class="footer__rule" />
+
+      <div class="footer__units">
+        <div class="footer__unit">
+          <p class="footer__unit-name">Unidade Palmas</p>
+          <p class="footer__unit-cnpj">Indústria de Compensados Guararapes Ltda - Palmas<br />CNPJ: 77.911.261/0001-98</p>
+          <p class="footer__unit-addr">R. Alcina Santos Araújo, 411 - São Francisco, Palmas - PR, 85690-287</p>
+        </div>
+        <div class="footer__unit">
+          <p class="footer__unit-name">Unidade Santa Cecília</p>
+          <p class="footer__unit-cnpj">Indústria de Compensados Guararapes Ltda – Santa Cecília<br />CNPJ: 77.911.261/0003-50</p>
+          <p class="footer__unit-addr">BR-116, S/N - Distrito Industrial, Santa Cecília - SC, 89540-000</p>
+        </div>
+        <div class="footer__unit">
+          <p class="footer__unit-name">Unidade Caçador</p>
+          <p class="footer__unit-cnpj">Guararapes Painéis<br />CNPJ: 08.810.422/0001-34 S/A</p>
+          <p class="footer__unit-addr">Rod Avelino Mandelli, s/n, K M01 – Aeroporto, Caçador – SC, 89.510-020</p>
+        </div>
+      </div>
+
+      <hr class="footer__rule" />
+
+      <div class="footer__bottom">
+        <p class="footer__legal">
+          <a href="#">Termos de uso</a>
+          <a href="#">Preferência de cookies</a>
+        </p>
+        <div class="lang lang--footer" role="group" aria-label="Idioma">
+          <button class="lang__btn is-active" type="button" aria-pressed="true" lang="pt-BR" data-lang="pt-BR" aria-label="Português">PT</button>
+          <button class="lang__btn" type="button" aria-pressed="false" lang="en" data-lang="en" aria-label="English">EN</button>
+          <button class="lang__btn" type="button" aria-pressed="false" lang="es" data-lang="es" aria-label="Español">ES</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
