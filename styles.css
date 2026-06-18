@@ -530,6 +530,7 @@ html.js .loader.is-done { opacity: 0; visibility: hidden; }
   right: var(--gutter);
   width: clamp(96px, 9.5vw, 136px);
   height: auto;
+  background: none;
   pointer-events: none;
 }
 .about__grid {
@@ -572,7 +573,7 @@ figure > figcaption { margin-top: var(--pace-1); }
 }
 .break__content { position: relative; z-index: 1; width: 100%; display: flex; flex-direction: column; align-items: center; gap: clamp(2.5rem, 6vw, 5.5rem); }
 .break__lead { display: flex; flex-direction: column; align-items: center; gap: clamp(1rem, 2vw, 1.5rem); text-align: center; }
-.break__emblem { width: 56px; height: auto; }
+.break__emblem { width: 56px; height: auto; background: none; }
 .break__statement {
   font-family: var(--font-display); font-style: italic; font-weight: 400;
   font-size: clamp(1.6rem, 1rem + 2vw, 2.5rem); line-height: 1.1; letter-spacing: -.02em;
@@ -731,16 +732,9 @@ figure > figcaption { margin-top: var(--pace-1); }
 }
 .sustain__lead { color: var(--terra-700); max-width: 421px; }
 .sustain__text .btn-outline { margin-top: .5rem; }
-.sustain__certs { flex: 1; min-width: min(280px, 100%); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1.25rem clamp(.9rem, 1.6vw, 1.5rem); }
-.sustain__certs img { width: auto; height: auto; object-fit: contain; opacity: .62; transition: opacity .25s var(--ease); }
-.sustain__certs img:where(:hover, :focus-visible) { opacity: .85; }
-.sustain__certs img:nth-child(1) { width: clamp(44px, 4.2vw, 61px); }
-.sustain__certs img:nth-child(2) { width: clamp(62px, 6vw, 87px); }
-.sustain__certs img:nth-child(3) { width: clamp(62px, 6vw, 87px); }
-.sustain__certs img:nth-child(4) { width: clamp(50px, 4.8vw, 70px); }
-.sustain__certs img:nth-child(5) { width: clamp(58px, 6vw, 87px); }
-.sustain__certs img:nth-child(6) { width: clamp(62px, 6vw, 87px); }
-.sustain__certs img:nth-child(7) { width: clamp(32px, 3vw, 44px); }
+.sustain__certs { flex: 1; min-width: min(280px, 100%); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: clamp(.9rem, 1.8vw, 1.6rem); }
+.sustain__certs img { width: auto; height: auto; max-height: clamp(26px, 2.8vw, 34px); max-width: clamp(60px, 6.4vw, 82px); object-fit: contain; background: none; opacity: .72; transition: opacity .25s var(--ease); }
+.sustain__certs img:where(:hover, :focus-visible) { opacity: 1; }
 
 /* ── Conteúdo ──────────────────────────────────────────────── */
 .content__grid {
